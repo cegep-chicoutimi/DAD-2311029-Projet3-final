@@ -1,10 +1,11 @@
-﻿using System;
+﻿using BibliothequeFonctionsDeBase;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
-using BibliothequeFonctionsDeBase;
+
 
 namespace Juges
 {
@@ -33,13 +34,13 @@ namespace Juges
             }
         }
 
-        public string[] SelectionerJoueurs()
+        public string[] SelectionerJoueurs(string message)
         {
             VerifierConnexionBD();
             
 
             MySqlDataReader resultatRequete = null;
-            MySqlDataReader resultatRequete1 = null;
+            
             try
             {
                 LaConnexion.Open();
@@ -72,7 +73,7 @@ namespace Juges
                     Console.WriteLine(listejoueur[0] + ".  " + listejoueur[1] + " " + listejoueur[2] + " " + listejoueur[3]);
                 }
 
-                int choixdeJoeur = FonctionsDeBase.LireEntierMinMax("Choix du joueur : ",1, listejoueurs.Count);
+                int choixdeJoeur = FonctionsDeBase.LireEntierMinMax(message, 1, listejoueurs.Count);
 
                 return listejoueurs[choixdeJoeur];
 

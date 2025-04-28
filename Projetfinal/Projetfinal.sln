@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juges", "Juges\Juges.csproj", "{33703C03-DAFA-42E5-990B-42123F39295D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliothequeFonctionsDeBase", "BibliothequeFonctions\BibliothequeFonctions\BibliothequeFonctionsDeBase.csproj", "{13AB42C3-332B-4926-832E-E5504A0430C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{33703C03-DAFA-42E5-990B-42123F39295D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33703C03-DAFA-42E5-990B-42123F39295D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33703C03-DAFA-42E5-990B-42123F39295D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AB42C3-332B-4926-832E-E5504A0430C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AB42C3-332B-4926-832E-E5504A0430C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AB42C3-332B-4926-832E-E5504A0430C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AB42C3-332B-4926-832E-E5504A0430C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

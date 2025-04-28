@@ -12,9 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="BibliothequeFonctionsDeBase">
-      <HintPath>..\..\BibliothequeFonctions\BibliothequeFonctions\bin\Debug\net8.0\BibliothequeFonctionsDeBase.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\BibliothequeFonctions\BibliothequeFonctions\BibliothequeFonctionsDeBase.csproj" />
   </ItemGroup>
 
 </Project>
