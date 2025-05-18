@@ -75,7 +75,7 @@ namespace Juges
 
                 int choixdeJoeur = FonctionsDeBase.LireEntierMinMax(message, 1, listejoueurs.Count);
 
-                return listejoueurs[choixdeJoeur];
+                return listejoueurs[choixdeJoeur-1];
 
             }
             catch (MySqlException sqlEx)

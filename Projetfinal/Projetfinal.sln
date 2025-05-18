@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juges", "Juges\Juges.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliothequeFonctionsDeBase", "BibliothequeFonctions\BibliothequeFonctions\BibliothequeFonctionsDeBase.csproj", "{13AB42C3-332B-4926-832E-E5504A0430C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Responsable", "Responsable\Responsable.csproj", "{2E709FC1-95F5-4F21-BF79-D2A16C3FCC3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{13AB42C3-332B-4926-832E-E5504A0430C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13AB42C3-332B-4926-832E-E5504A0430C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13AB42C3-332B-4926-832E-E5504A0430C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E709FC1-95F5-4F21-BF79-D2A16C3FCC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E709FC1-95F5-4F21-BF79-D2A16C3FCC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E709FC1-95F5-4F21-BF79-D2A16C3FCC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E709FC1-95F5-4F21-BF79-D2A16C3FCC3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {181CEBCC-03F4-4EF6-A16E-F5DB81095750}
 	EndGlobalSection
 EndGlobal
